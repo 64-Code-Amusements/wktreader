@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nettopologysuite" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="collection.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="linestrings.txt" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="linestringWithCommas.txt" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
